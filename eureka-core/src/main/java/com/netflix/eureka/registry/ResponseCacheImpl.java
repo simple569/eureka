@@ -458,7 +458,7 @@ public class ResponseCacheImpl implements ResponseCache {
             }
         }
     }
-
+    /**获取所有已注册Application实例的虚拟访问地址*/
     private static Applications getApplicationsForVip(Key key, AbstractInstanceRegistry registry) {
         logger.debug(
                 "Retrieving applications from registry for key : {} {} {} {}",

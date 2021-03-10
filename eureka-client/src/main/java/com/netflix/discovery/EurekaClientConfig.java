@@ -269,7 +269,7 @@ public interface EurekaClientConfig {
      */
     boolean shouldUseDnsForFetchingServiceUrls();
 
-    /**
+    /**    <p>注册当前eureka</p>
      * Indicates whether or not this instance should register its information
      * with eureka server for discovery by others.
      *
@@ -367,7 +367,7 @@ public interface EurekaClientConfig {
      */
     boolean shouldDisableDelta();
 
-    /**
+    /**    <p>逗号分割线region列表,用于获取eureka registry information</p>
      * Comma separated list of regions for which the eureka registry information will be fetched. It is mandatory to
      * define the availability zones for each of these regions as returned by {@link #getAvailabilityZones(String)}.
      * Failing to do so, will result in failure of discovery client startup.
@@ -448,7 +448,7 @@ public interface EurekaClientConfig {
      */
     int getEurekaConnectionIdleTimeoutSeconds();
 
-    /**
+    /**    <p>从eureka server获取 eureka注册信息</p>
      * Indicates whether this client should fetch eureka registry information from eureka server.
      *
      * @return {@code true} if registry information has to be fetched, {@code false} otherwise.

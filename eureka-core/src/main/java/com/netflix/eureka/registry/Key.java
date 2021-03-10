@@ -12,7 +12,7 @@ public class Key {
         JSON, XML
     }
 
-    /**
+    /**    <p>定义存储在cache中的实体</p>
      * An enum to define the entity that is stored in this cache for this key.
      */
     public enum EntityType {

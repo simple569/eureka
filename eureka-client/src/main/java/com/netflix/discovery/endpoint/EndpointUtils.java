@@ -21,8 +21,8 @@ import java.util.TreeSet;
 public class EndpointUtils {
     private static final Logger logger = LoggerFactory.getLogger(EndpointUtils.class);
 
-    public static final String DEFAULT_REGION = "default";
-    public static final String DEFAULT_ZONE = "default";
+    public static final String DEFAULT_REGION = "default";//默认region
+    public static final String DEFAULT_ZONE = "default";//默认zone
 
     public enum DiscoveryUrlType {
         CNAME, A

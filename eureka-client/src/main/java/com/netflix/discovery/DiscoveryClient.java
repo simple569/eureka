@@ -194,7 +194,7 @@ public class DiscoveryClient implements EurekaClient {
     private final Stats stats = new Stats();
 
     private static final class EurekaTransport {
-        private ClosableResolver bootstrapResolver;
+        private ClosableResolver bootstrapResolver;//解析集群
         private TransportClientFactory transportClientFactory;
 
         private EurekaHttpClient registrationClient;

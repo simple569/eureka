@@ -27,7 +27,7 @@ import com.netflix.discovery.StatusChangeEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
+/**    <p>用于注册到Eureka server的信息</p>
  * The class that initializes information required for registration with
  * <tt>Eureka Server</tt> and to be discovered by other components.
  *
